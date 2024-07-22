@@ -14,4 +14,4 @@ Header Files:
  
   equity_calculator.h – This quite literally has one method which calculates the equities.
  
-  player.h – identifies the player, their hole cards, and their card pool. Each player has a unique id as well.
+  player.h – identifies the player and stores their hole card, and their card pool. Each player has a unique id as well.
