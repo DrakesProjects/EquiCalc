@@ -3,7 +3,7 @@ EquiCalc Holdem
 Written By Drake Adams, 07/21/2024
 
 
-Summary: This is a simple library which calculates your odds of winning in a Texas Holdem poker hand based off the information you provide. It runs as randomized simulations of the hand as you want to give you accurate estimates.
+Summary: This is a simple library which calculates your odds of winning in a Texas Holdem poker hand based off the information you provide. It runs as many randomized simulations of the hand as you want to give you accurate estimates.
 
 
 Header Files:
