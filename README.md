@@ -17,6 +17,6 @@ Header Files:
   player.h – identifies the player and stores their hole cards and their card pool.
 
   Side note:
-   - I've realized that the method I use to compare hands is much too complex (takes too much time to be ran thousands of times in a row) and not really needed. The method is not completely useless though, as it accurately compares two 5-card hands perfectly, but I don't really need to be comparing the actual hands...
-   - My plan is to use this method of hand comparison i've developed to create a series of maps which map hands to their 'rank,' or how many hands it is better than. This way if I need to compare two hands, instead of needing to label the type of hand it is, I can just get their hand ranks (extremely quickly, log time I believe) and compare that.
+   - I've realized that the method I use to compare hands is much too complex (takes too much time to be ran thousands of times in a row) and not really needed. The method is not completely useless though, as it does accurately compare any two 5-card hands, which means I can use it as a tool to build a better program:
+   - My plan is to use this method of hand comparison i've developed to create a series of maps which map hands to their 'rank,' or how many hands it is better than. This way if I need to compare two hands I can just get their hand ranks (extremely quickly, log time I believe) and compare that.
    - A concern I have about this is the size of a file needed to store all hand ranks, so I would also like to find some ways to reduce the amount of space by not storing every single hand rank which exists (52 choose 5).
